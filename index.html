@@ -12,8 +12,8 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #1b1b2c;
+            color: #f4f4f4;
             scroll-behavior: smooth;
         }
 
@@ -26,7 +26,7 @@
 
         /* Header */
         header {
-            background: linear-gradient(45deg, #4b6cb7, #182848);
+            background: #25253f;
             color: #fff;
             padding: 20px 0;
             position: fixed;
@@ -43,6 +43,7 @@
             font-size: 24px;
             font-weight: bold;
             display: inline-block;
+            color: #ffdd57;
         }
 
         header nav ul {
@@ -74,7 +75,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(45deg, rgba(27,27,36,0.8), rgba(45,45,58,0.8)), url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            background: linear-gradient(45deg, rgba(27, 27, 44, 0.8), rgba(45, 45, 68, 0.8)), url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
             color: #fff;
             padding: 150px 20px;
             text-align: center;
@@ -101,7 +102,7 @@
         .hero .btn {
             padding: 15px 30px;
             background: #ffdd57;
-            color: #007bff;
+            color: #25253f;
             border: none;
             border-radius: 50px;
             text-decoration: none;
@@ -111,7 +112,7 @@
 
         .hero .btn:hover {
             background: #fff;
-            color: #007bff;
+            color: #25253f;
             transform: scale(1.05);
         }
 
@@ -142,7 +143,7 @@
         .features {
             padding: 80px 20px;
             text-align: center;
-            background: #f9f9f9;
+            background: #2b2b44;
         }
 
         .features h2 {
@@ -156,7 +157,7 @@
             content: '';
             width: 60px;
             height: 4px;
-            background: #007bff;
+            background: #ffdd57;
             position: absolute;
             bottom: -10px;
             left: 50%;
@@ -174,23 +175,23 @@
             width: 23%;
             padding: 20px;
             text-align: center;
-            border: 1px solid #ccc;
+            border: 1px solid #444;
             border-radius: 10px;
-            background: #fff;
+            background: #333;
             margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
         .features .feature-box:hover {
             transform: translateY(-10px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
         }
 
         .features .feature-box .icon {
             font-size: 50px;
             margin-bottom: 15px;
-            color: #007bff;
+            color: #ffdd57;
         }
 
         .features .feature-box h3 {
@@ -200,7 +201,7 @@
 
         .features .feature-box p {
             font-size: 16px;
-            color: #666;
+            color: #ccc;
         }
 
         /* About Us Section */
@@ -219,6 +220,7 @@
             max-width: 800px;
             margin: 0 auto 40px;
             line-height: 1.6;
+            color: #ccc;
         }
 
         .about .team-images {
@@ -244,7 +246,7 @@
         .services {
             padding: 80px 20px;
             text-align: center;
-            background: #f9f9f9;
+            background: #2b2b44;
         }
 
         .services h2 {
@@ -257,6 +259,7 @@
             max-width: 800px;
             margin: 0 auto 40px;
             line-height: 1.6;
+            color: #ccc;
         }
 
         /* Testimonials Section */
@@ -281,18 +284,18 @@
             width: 45%;
             padding: 20px;
             text-align: left;
-            border: 1px solid #ccc;
+            border: 1px solid #444;
             border-radius: 10px;
-            background: #fff;
+            background: #333;
             margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             position: relative;
         }
 
         .testimonials .testimonial-box::before {
             content: '“';
             font-size: 50px;
-            color: #007bff;
+            color: #ffdd57;
             position: absolute;
             top: -20px;
             left: 20px;
@@ -300,20 +303,20 @@
 
         .testimonials .testimonial-box p {
             font-size: 16px;
-            color: #666;
+            color: #ccc;
             margin-bottom: 20px;
         }
 
         .testimonials .testimonial-box h3 {
             font-size: 18px;
-            color: #007bff;
+            color: #ffdd57;
         }
 
         /* Contact Us Section */
         .contact {
             padding: 80px 20px;
             text-align: center;
-            background: #f9f9f9;
+            background: #2b2b44;
         }
 
         .contact h2 {
@@ -332,15 +335,17 @@
         .contact form input,
         .contact form textarea {
             padding: 15px;
-            border: 1px solid #ccc;
+            border: 1px solid #444;
             border-radius: 5px;
             font-size: 16px;
+            background: #333;
+            color: #fff;
         }
 
         .contact form button {
             padding: 15px;
-            background: #007bff;
-            color: #fff;
+            background: #ffdd57;
+            color: #25253f;
             border: none;
             border-radius: 5px;
             font-size: 18px;
@@ -349,7 +354,8 @@
         }
 
         .contact form button:hover {
-            background: #0056b3;
+            background: #fff;
+            color: #25253f;
         }
 
         .contact .contact-info {
@@ -367,18 +373,18 @@
         .contact .social-media i {
             font-size: 24px;
             margin: 0 10px;
-            color: #007bff;
+            color: #ffdd57;
             transition: color 0.3s;
         }
 
         .contact .social-media i:hover {
-            color: #0056b3;
+            color: #fff;
         }
 
         /* Footer */
         footer {
             padding: 40px 20px;
-            background: #333;
+            background: #25253f;
             color: #fff;
             text-align: center;
         }
@@ -410,12 +416,14 @@
             border: none;
             border-radius: 5px;
             font-size: 16px;
+            background: #333;
+            color: #fff;
         }
 
         footer .newsletter form button {
             padding: 15px 30px;
-            background: #007bff;
-            color: #fff;
+            background: #ffdd57;
+            color: #25253f;
             border: none;
             border-radius: 5px;
             font-size: 18px;
@@ -424,7 +432,8 @@
         }
 
         footer .newsletter form button:hover {
-            background: #0056b3;
+            background: #fff;
+            color: #25253f;
         }
     </style>
 </head>
@@ -491,7 +500,7 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About मातृ</h2>
-            <p>"Empowering Nepal with a cutting-edge AI assistant, मातृ is designed to revolutionize daily life, offering personalized support and bridging the gap between technology and tradition."</p>
+            <p>Empowering Nepal with a cutting-edge AI assistant, मातृ is designed to revolutionize daily life, offering personalized support and bridging the gap between technology and tradition.</p>
             <div class="team-images">
                 <img src="https://via.placeholder.com/150" alt="Team Member">
                 <img src="https://via.placeholder.com/150" alt="Team Member">
@@ -504,7 +513,7 @@
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <p>मातृ empowers you with personalized assistance, from daily reminders and health tips to educational support and travel guidance. Connect with local services, stay updated on cultural events, and access emergency contacts, all while bridging the gap between technology and tradition.</p>
+            <p>Personalized assistance, healthcare support, educational aid, travel guidance, local services directory, cultural connection, emergency assistance, and community engagement.</p>
         </div>
     </section>
 
